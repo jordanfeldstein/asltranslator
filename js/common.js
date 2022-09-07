@@ -1,0 +1,1 @@
+function copyText(e,n){var t=document.createRange();t.selectNode(document.getElementById(n)),window.getSelection().removeAllRanges(),window.getSelection().addRange(t),document.execCommand("copy"),window.getSelection().removeAllRanges();var o=document.getElementById(e);o.innerText;o.innerText="Copied !",setTimeout((function(){document.getElementById(e).innerText="Copy"}),3e3,e)}
